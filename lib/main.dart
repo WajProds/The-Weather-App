@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 import 'package:weather_app/screens/home_page.dart';
 
 void main() {
@@ -9,14 +7,11 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  
   const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-   
-    
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
